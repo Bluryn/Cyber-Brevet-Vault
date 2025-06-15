@@ -1,6 +1,6 @@
 # Génération d'un README.md pour le vault Cyber-Brevet-Vault
 
-readme_md_content = """# 📁 Cyber Brevet Vault
+📁 Cyber Brevet Vault
 
 Ce dépôt contient mes notes, laboratoires, scripts et fiches de révision liés à la préparation du **Brevet Fédéral en Cybersécurité**, avec un accent sur :
 
@@ -29,6 +29,4 @@ Ce dépôt contient mes notes, laboratoires, scripts et fiches de révision lié
 ## 🔗 Lien depuis le vault principal
 
 Si tu ouvres ton vault principal `Cyber-Vault` dans Obsidian, tu peux accéder directement à ce vault avec ce lien Obsidian URI :
-
-```markdown
 [🔗 Ouvrir Cyber Brevet Vault](obsidian://open?vault=Cyber-Brevet-Vault)
