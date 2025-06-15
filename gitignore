@@ -1,0 +1,20 @@
+
+# Obsidian workspace and cache
+.obsidian/workspace
+.obsidian/cache
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode project settings (if any)
+.vscode/
+
+# macOS metadata
+.AppleDouble
+.LSOverride
+Icon
+
+# Logs and temp files
+*.log
+*.tmp
