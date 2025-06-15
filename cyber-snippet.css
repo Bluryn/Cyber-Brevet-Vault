@@ -1,0 +1,54 @@
+/* === Snippet CSS - Cyber Brevet Vault === */
+
+span.concept {
+  font-weight: bold;
+  color: #00bfff;
+}
+
+span.technology {
+  font-style: italic;
+  color: #32cd32;
+}
+
+span.protocol {
+  color: #ff8c00;
+}
+
+span.threat {
+  font-weight: bold;
+  color: #ff2c2c;
+}
+
+span.indicator {
+  font-weight: bold;
+  font-style: italic;
+  color: #ff4500;
+}
+
+span.best-practice {
+  font-weight: bold;
+  color: #9400d3;
+}
+
+span.mitigation {
+  font-style: italic;
+  color: #8a2be2;
+}
+
+span.example {
+  font-style: italic;
+  color: #555;
+}
+
+span.goal {
+  color: #1e90ff;
+  font-weight: 600;
+}
+
+span.note {
+  background-color: #333;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-size: 0.9em;
+}
