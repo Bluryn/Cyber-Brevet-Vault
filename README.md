@@ -1,31 +1,53 @@
 # 📁 Cyber Brevet Vault
 
-Ce dépôt contient mes notes, laboratoires, scripts et fiches de révision liés à la préparation du **Brevet Fédéral en Cybersécurité**, avec un accent sur :
+> 🎯 <span class="goal">Résumé</span> : Vault dédié à la préparation du <span class="concept">Brevet Fédéral en Cybersécurité</span>.  
+> Il regroupe des <span class="concept">notes de cours</span>, <span class="technology">laboratoires</span>, <span class="technology">scripts</span>, <span class="concept">fiches de révision</span> et <span class="best-practice">bonnes pratiques</span>  
+> autour du <span class="concept">pentest</span>, de la <span class="threat">sécurité web</span>, de l’<span class="concept">analyse d’incident</span> et des <span class="technology">outils défensifs</span> (SOC, SIEM, Forensics).
 
-- 🛠 Pentest (réseau + web)
-- ☁️ Cloud & DevSecOps
-- 🧠 GRC & bonnes pratiques
-- 🧪 Labs pratiques & automation
-- 🗂 Références transverses et outils
+---
 
-## 🧭 Organisation
+## 🧭 <span class="concept">Accès rapide (tableau de bord)</span>
 
-| Dossier                   | Contenu principal                                 |
-|---------------------------|---------------------------------------------------|
-| `01_Introduction_Pentest` | Fondamentaux du pentest (phases classiques)       |
-| `02_Pentest_Web`          | Vulnérabilités OWASP et exploitation web          |
-| `03_Labs`                 | Compte-rendus et environnements de lab           |
-| `04_Scripts`              | Scripts réutilisables, cheatsheets, reverse shell|
-| `05_Exam`                 | Révisions, checklist, questions types             |
+- [[00_Index/00_Index]] → 🗂 Vue complète par thème et module
+- 📘 [[01_Introduction_Pentest/01_Méthodologie]] – <span class="concept">Phases du pentest</span>
+- 🌐 [[02_Pentest_Web/01_OWASP_Top10]] – <span class="threat">Vue OWASP</span> et <span class="threat">vulnérabilités Web</span>
+- 🧪 [[03_Labs]] – <span class="goal">Résumés de laboratoires</span>
+- 🧰 [[04_Scripts]] – <span class="technology">Scripts, payloads, outils</span>
+- 📋 [[05_Exam/Checklist_Pentest]] – <span class="goal">Préparation à l’examen</span>
 
-## 🧰 Stack utilisée
+---
 
-- **Obsidian** pour la prise de notes (avec snippets CSS)
-- **Git + GitHub** pour versionning
-- **TryHackMe**, **RootMe**, **HackTheBox** pour la pratique
+## 🗂 <span class="concept">Structure du Vault</span>
 
-## 🔗 Lien depuis le vault principal
+| Dossier                   | Contenu principal                                                 |
+|---------------------------|-------------------------------------------------------------------|
+| `01_Introduction_Pentest` | <span class="concept">Reconnaissance</span>, <span class="concept">Scanning</span>, etc.              |
+| `02_Pentest_Web`          | <span class="threat">OWASP Top 10</span>, injections, web exploits           |
+| `03_Labs`                 | <span class="example">DVWA, RootMe, Metasploitable2</span>         |
+| `04_Scripts`              | <span class="technology">reverse shell, hashcat, nmap</span>       |
+| `05_Exam`                 | <span class="goal">Checklist, questions types, fiches synthèse</span> |
 
-Si tu ouvres ton vault principal `Cyber-Vault` dans Obsidian, tu peux accéder directement à ce vault avec ce lien Obsidian URI :
+---
 
+## 🔗 <span class="concept">Intégration avec `CyberVault`</span>
+
+Lien pour ouvrir ce vault depuis ton vault principal :
+
+```markdown
 [🔗 Ouvrir Cyber Brevet Vault](obsidian://open?vault=Cyber-Brevet-Vault)
+```
+
+---
+
+## 🎨 <span class="best-practice">Mise en forme & balises CSS personnalisées</span>
+
+Ce vault utilise un fichier CSS dédié (`cyber-snippet.css`) pour appliquer des styles visuels à tes notes.  
+Les balises `<span class="...">` permettent d’enrichir la lisibilité avec un code couleur logique (ex: `.concept`, `.technology`, `.threat`, etc.)
+
+➡️ Consulte le guide complet d’utilisation ici :  
+👉 [[cyber-snippet-guide]]
+
+Tu y trouveras :
+- Une table des balises disponibles
+- Des exemples pratiques copiables
+- Les conventions à respecter pour la cohérence visuelle
