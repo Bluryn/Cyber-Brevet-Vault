@@ -1,45 +1,50 @@
-# 🧵 Guide d'utilisation – `cyber-snippet.css`
+# 🎨 Guide – cyber-snippet-smart.css
 
-Ce fichier CSS est destiné au vault **Cyber-Brevet-Vault** pour formater visuellement des éléments clés de cybersécurité.
+Ce guide documente les styles disponibles dans le fichier `cyber-snippet-smart.css` pour enrichir tes notes dans Obsidian.
 
-## 🔠 Classes disponibles
-
-| Classe CSS        | Usage prévu                                        |
-|-------------------|---------------------------------------------------|
-| `concept`         | Définition, processus, méthodologie               |
-| `technology`      | Outils, scripts, plateformes                      |
-| `protocol`        | Protocoles, formats de logs, standards réseau     |
-| `threat`          | Vulnérabilités, attaques, comportements suspects |
-| `indicator`       | IOCs : IP, hash, username, artefact               |
-| `best-practice`   | Bonnes pratiques générales                        |
-| `mitigation`      | Contremesures techniques spécifiques              |
-| `example`         | Commandes, regex, payloads, code                  |
-| `goal`            | Objectifs de lab ou scénario                      |
-| `note`            | Annotation personnelle (⚠️, 💡, 📌…)              |
-
----
-
-## 🧪 Exemples
+Chaque classe peut être utilisée avec la syntaxe :
 
 ```markdown
-<span class="concept">Reconnaissance</span> utilise <span class="technology">theHarvester</span> pour extraire des emails via <span class="protocol">DNS</span>.
-
-<span class="threat">SQLi</span> peut exposer des données sensibles.
-
-<span class="indicator">Hash suspect : f2d4a1e8b03aa1f3eac9f...</span>
-
-<span class="best-practice">Limiter les droits d'accès aux bases sensibles</span>
-
-<span class="mitigation">Configurer une règle YARA pour bloquer mimikatz</span>
-
-<span class="example">Commande : sqlmap -r login.req --dump</span>
-
-<span class="goal">But : obtenir un accès administrateur à l'application</span>
-
-<span class="note">💡 Penser à vérifier aussi les logs DNS dans Zeek</span>
+<span class="nom-classe">Contenu stylisé</span>
 ```
 
 ---
 
-📌 Active ce CSS uniquement dans **Cyber-Brevet-Vault** :  
-Place-le dans `.obsidian/snippets/` et active-le via `Paramètres > Apparence > Snippets CSS`.
+## ✅ Tableau des classes CSS et leur rendu
+
+| Classe CSS        | Usage                                  | Exemple de rendu                   |
+|-------------------|-----------------------------------------|------------------------------------|
+| concept           | Notions, processus, définitions clés    | <span class="concept">Reconnaissance</span> |
+| technology        | Outils, scripts, plateformes            | <span class="technology">Burp Suite</span> |
+| protocol          | Protocoles, formats, standards          | <span class="protocol">DNS</span> |
+| threat            | Vulnérabilités, attaques, comportements | <span class="threat">XSS</span> |
+| indicator         | IOC : IP, hash, user                    | <span class="indicator">192.168.1.1</span> |
+| best-practice     | Bonnes pratiques générales              | <span class="best-practice">Activer l’authentification multifactorielle</span> |
+| mitigation        | Contremesures techniques ciblées        | <span class="mitigation">Filtrage des entrées côté serveur</span> |
+| example           | Commandes, payloads, regex              | <span class="example">nmap -sV -p- target.com</span> |
+| goal              | Objectifs de lab ou de phase            | <span class="goal">Obtenir un shell sur la machine cible</span> |
+| note              | Notes perso, TODO, tips                 | <span class="note">💡 Penser à tester aussi le paramètre Cookie</span> |
+
+---
+
+## 🛠 Bonnes pratiques d’utilisation
+
+- Utilise les balises **dans des blocs de texte ou des tableaux**
+- Ne surcharge pas : limite à 1 ou 2 styles par phrase
+- Priorise la **lisibilité** sur la décoration
+- Tu peux combiner certaines balises avec du texte Markdown standard
+
+---
+
+## 📦 Intégration
+
+Active le fichier `cyber-snippet-smart.css` via :
+
+```
+Obsidian > Paramètres > Apparence > Snippets CSS > Activer
+```
+
+📁 Place le fichier dans :
+```
+Cyber-Brevet-Vault/.obsidian/snippets/
+```

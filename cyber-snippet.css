@@ -1,53 +1,53 @@
-/* === Snippet CSS - Cyber Brevet Vault === */
+/* === cyber-snippet.css — version optimisée dark mode === */
 
 span.concept {
   font-weight: bold;
-  color: #00bfff;
+  color: #82aaff; /* Bleu clair */
 }
 
 span.technology {
   font-style: italic;
-  color: #32cd32;
+  color: #c3e88d; /* Vert pâle */
 }
 
 span.protocol {
-  color: #ff8c00;
+  color: #f78c6c; /* Orange doux */
 }
 
 span.threat {
   font-weight: bold;
-  color: #ff2c2c;
+  color: #ff5370; /* Rouge vif */
 }
 
 span.indicator {
   font-weight: bold;
   font-style: italic;
-  color: #ff4500;
+  color: #f07178; /* Rose foncé */
 }
 
 span.best-practice {
   font-weight: bold;
-  color: #9400d3;
+  color: #c792ea; /* Lavande */
 }
 
 span.mitigation {
   font-style: italic;
-  color: #8a2be2;
+  color: #ffcb6b; /* Jaune pâle */
 }
 
 span.example {
   font-style: italic;
-  color: #555;
+  color: #999999; /* Gris discret */
 }
 
 span.goal {
-  color: #1e90ff;
   font-weight: 600;
+  color: #addb67; /* Vert menthe */
 }
 
 span.note {
-  background-color: #333;
-  color: #fff;
+  background-color: #444;
+  color: #ffffff;
   padding: 2px 6px;
   border-radius: 6px;
   font-size: 0.9em;
