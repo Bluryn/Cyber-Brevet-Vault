@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Introduction_Pentest/01_Méthodologie.md",
-                "mode": "preview",
+                "file": "01_Introduction_Pentest/02_Reconnaissance.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_Méthodologie"
+              "title": "02_Reconnaissance"
             }
           }
         ]
@@ -170,11 +170,12 @@
   },
   "active": "19315209fc9932c3",
   "lastOpenFiles": [
-    "00_Index/00_Index.md",
-    "cyber-snippet-guide.md",
+    "01_Introduction_Pentest/03_Scanning.md",
+    "01_Introduction_Pentest/04_Enumeration.md",
     "01_Introduction_Pentest/01_Méthodologie.md",
     "01_Introduction_Pentest/02_Reconnaissance.md",
-    "01_Introduction_Pentest/04_Enumeration.md",
+    "00_Index/00_Index.md",
+    "cyber-snippet-guide.md",
     "README.md",
     "gitignore",
     "01_Introduction_Pentest/08_Password_Cracking.md",
