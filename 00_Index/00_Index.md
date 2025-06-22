@@ -38,18 +38,18 @@ Bienvenue dans ton vault de préparation au **Brevet Fédéral en Cybersécurit�
 
 ## 🌐 Pentest Web
 
-| Module | Lien                                                                 |
-|--------|----------------------------------------------------------------------|
-| 01     | [[02_Pentest_Web/01_OWASP_Top10]]                                   |
-| 02     | [[02_Pentest_Web/02_BurpSuite]]                                     |
-| 03     | [[02_Pentest_Web/03_XSS]]                                           |
-| 04     | [[02_Pentest_Web/04_SQL_Injection]]                                 |
-| 05     | [[02_Pentest_Web/05_Command_Injection]]                             |
-| 06     | [[02_Pentest_Web/06_Path_Traversal]]                                |
-| 07     | [[02_Pentest_Web/07_RFI]]                                           |
-| 08     | [[02_Pentest_Web/08_IDOR]]                                          |
-| 09     | [[02_Pentest_Web/09_SSRF]]                                          |
-| 10     | [[02_Pentest_Web/10_SSTI]]                                          |
+| Module | Lien                                    |
+| ------ | --------------------------------------- |
+| 01     | [[02_Pentest_Web/01_OWASP_Top10]]       |
+| 02     | [[02_Pentest_Web/02_BurpSuite]]         |
+| 03     | [[02_Pentest_Web/03_XSS]]               |
+| 04     | [[02_Pentest_Web/04_SQL_Injection]]     |
+| 05     | [[02_Pentest_Web/05_Command_Injection]] |
+| 06     | [[02_Pentest_Web/06_Path_Traversal]]    |
+| 07     | [[02_Pentest_Web/07_RFI]]               |
+| 08     | [[02_Pentest_Web/08_IDOR]]              |
+| 09     | [[02_Pentest_Web/09_SSRF]]              |
+| 10     | [[02_Pentest_Web/10_SSTI]]              |
 
 ---
 
