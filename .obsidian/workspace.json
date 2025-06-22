@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Introduction_Pentest/05_Exploitation.md",
+                "file": "01_Introduction_Pentest/06_Privilege_Escalation.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05_Exploitation"
+              "title": "06_Privilege_Escalation"
             }
           }
         ]
@@ -170,8 +170,8 @@
   },
   "active": "19315209fc9932c3",
   "lastOpenFiles": [
-    "01_Introduction_Pentest/06_Privilege_Escalation.md",
     "01_Introduction_Pentest/05_Exploitation.md",
+    "01_Introduction_Pentest/06_Privilege_Escalation.md",
     "01_Introduction_Pentest/04_Enumeration.md",
     "01_Introduction_Pentest/03_Scanning.md",
     "01_Introduction_Pentest/02_Reconnaissance.md",
