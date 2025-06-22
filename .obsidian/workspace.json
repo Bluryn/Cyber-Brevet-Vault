@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Pentest_Web/07_RFI.md",
+                "file": "02_Pentest_Web/04_SQL_Injection.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07_RFI"
+              "title": "04_SQL_Injection"
             }
           }
         ]
@@ -172,6 +172,7 @@
   "lastOpenFiles": [
     "02_Pentest_Web/05_Command_Injection.md",
     "02_Pentest_Web/06_Path_Traversal.md",
+    "02_Pentest_Web/07_RFI.md",
     "00_Index/00_Index.md",
     "02_Pentest_Web/03_XSS.md",
     "02_Pentest_Web/04_SQL_Injection.md",
