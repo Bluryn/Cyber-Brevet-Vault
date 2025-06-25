@@ -27,7 +27,7 @@ Le vault est divisé en modules pédagogiques correspondant aux grandes thémati
 
 | Module | Lien |
 |--------|------|
-| 01 | [[01_Introduction_Pentest/01_Kickoff]] |
+| 01 | [[01_Introduction_Pentest/01_Méthodologie]] |
 | 02 | [[01_Introduction_Pentest/02_Reconnaissance]] |
 | 03 | [[01_Introduction_Pentest/03_Scanning]] |
 | 04 | [[01_Introduction_Pentest/04_Enumeration]] |
