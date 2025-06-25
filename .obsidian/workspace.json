@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Introduction_Pentest/08_Password_Cracking.md",
+                "file": "01_Introduction_Pentest/05_Exploitation.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08_Password_Cracking"
+              "title": "05_Exploitation"
             }
           }
         ]
@@ -170,16 +170,16 @@
   },
   "active": "19315209fc9932c3",
   "lastOpenFiles": [
+    "01_Introduction_Pentest/07_Post_Exploitation.md",
+    "01_Introduction_Pentest/08_Password_Cracking.md",
+    "01_Introduction_Pentest/01_Méthodologie.md",
+    "README.md",
     "01_Introduction_Pentest/06_Privilege_Escalation.md",
     "01_Introduction_Pentest/05_Exploitation.md",
     "01_Introduction_Pentest/04_Enumeration.md",
     "01_Introduction_Pentest/02_Reconnaissance.md",
-    "01_Introduction_Pentest/01_Méthodologie.md",
     "00_Index/00_Index.md",
     "cyber-snippet-guide.md",
-    "README.md",
-    "01_Introduction_Pentest/08_Password_Cracking.md",
-    "01_Introduction_Pentest/07_Post_Exploitation.md",
     "01_Introduction_Pentest/03_Scanning.md",
     "03_Labs.md",
     "05_Exam/Questions_Typiques.md",
