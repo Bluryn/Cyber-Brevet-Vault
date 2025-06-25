@@ -1,3 +1,4 @@
+
 # Mise à jour complète du README.md avec l'avertissement sur GitHub et lien vers le snippet guide
 
 readme_path = Path("/mnt/data/Cyber-Brevet-Vault/README.md")
